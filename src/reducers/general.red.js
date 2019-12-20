@@ -1,20 +1,34 @@
 export default (state = {}, action) => {
     state = {
+        answers: {},
+        questions: [],
+        current_question_index: 0,
+        isFinisedTest: false,
         ...state
     }
     switch (action.type) {
-        case 'LOGIN':
-            let data = action.payload;
-
+        case 'SET_ANSWERS':
             return {
                 ...state,
-                user: data
+                answers: { ...action.payload }
             }
 
-        case 'SET_FLAG_API':
+        case 'SET_QUESTIONS':
             return {
                 ...state,
-                flag_api: JSON.parse(JSON.stringify(action.payload))
+                questions: [...action.payload]
+            }
+
+        case 'SET_CURRENT_QUESTION_INDEX':
+            return {
+                ...state,
+                current_question_index: action.payload
+            }
+
+        case 'FINISH':
+            return {
+                ...state,
+                isFinisedTest: true
             }
 
         default:

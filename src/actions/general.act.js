@@ -1,32 +1,43 @@
-export const getRulesList = () => {
+export const get_questions = (callback) => {
     return {
-        type: 'GET_RULE_LIST',
+        type: 'API',
+        payload: { type: 'None', method: 'get', path: 'questions.json', callback }
+    }
+}
+
+export const get_answers = (callback) => {
+    return {
+        type: 'API',
+        payload: { type: 'None', method: 'get', path: 'answers.json', callback }
+    }
+}
+
+export const setAnswers = (data) => {
+    return {
+        type: 'SET_ANSWERS',
         payload: data
     }
 }
 
-
-
-export const login = (data, callback) => {
+export const setQuestions = (data) => {
     return {
-        type: 'API',
-        payload: { type: 'LOGIN', data, method: 'post', path: 'jwt/create', callback }
+        type: 'SET_QUESTIONS',
+        payload: data
     }
 }
 
-export const logout = (callback) => {
+export const setCurrentQuestionIndex = (data) => {
     return {
-        type: 'LOGOUT',
+        type: 'SET_CURRENT_QUESTION_INDEX',
+        payload: data
     }
 }
 
-export const reset = (data, callback) => {
+export const finish = (data) => {
     return {
-        type: 'API',
-        payload: { type: 'RESET', data, method: 'post', path: 'api/renew_password', callback }
+        type: 'FINISH',
     }
 }
-
 
 export const api = (type, payload, additional) => {
     return {

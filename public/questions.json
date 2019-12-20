@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the capital city of Israel?",
+            "options": [
+                "Yaffo",
+                "Tel-Aviv",
+                "Jerusalem",
+                "Lod"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Who is the Prime Minister of Israel?",
+            "options": [
+                "Beyamin Netanyahu",
+                "Ehud Barak",
+                "Benny Gants",
+                "Yair Lapid"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "As long as the Olympic Games are held?",
+            "options": [
+                "1 Year",
+                "4 Months",
+                "4 Years",
+                "10 Years"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "As long as the World Cup games are held?",
+            "options": [
+                "1 Year",
+                "4 Months",
+                "4 Years",
+                "10 Years"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "When the state of Israel was established?",
+            "options": [
+                "1945",
+                "1948",
+                "1947",
+                "1990"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "In what year was React released?",
+            "options": [
+                "2012",
+                "2018",
+                "2010",
+                "2013"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "How many times did Israel qualify for the World Cup?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "How many times Maccabi Tel Aviv basketball team won the European Championship?",
+            "options": [
+                "8",
+                "6",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "How tall is a giraffe??",
+            "options": [
+                "4.6 – 6.1 meters",
+                "4.6 – 6.1 centimeter",
+                "2.6 – 3.1 meters",
+                "19.6 – 26.1 meters"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "In which city is the Technion located?",
+            "options": [
+                "Yaffo",
+                "Tel-Aviv",
+                "Jerusalem",
+                "Haifa"
+            ]
+        }
+    ]
+}
